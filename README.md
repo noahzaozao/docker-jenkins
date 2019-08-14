@@ -2,9 +2,14 @@
 
 ## Usage
 
-```
-docker-compose build
-docker-compose up -d
+### Master Node
 
-docker ps -a
+```bash
+docker-compose up -d jenkins
+```
+
+### Node
+
+```bash
+docker-compose up -d jenkins-agent
 ```
